@@ -8,7 +8,7 @@
       <% @cocktails.each do |cocktail| %>
         <div class="col-xs-12 col-sm-4">
           <li>
-            <div class="card">
+            <div class="card" style="background-image: url('<%= cl_image_path @cocktail.photo, height: 300, width: 400, crop: :fill %>')">
               <div class="cocktail-delete"><%= link_to 'Delete', cocktail_path(cocktail), method: :delete %></div>
               <div class="cocktail-name"><%= link_to cocktail.name, cocktail_path(cocktail), class: "text-center" %></div>
             </div>
