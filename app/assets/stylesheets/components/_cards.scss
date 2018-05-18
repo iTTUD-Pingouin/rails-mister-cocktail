@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  display: block;
+}
+
+
+.cocktail-delete {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  a {
+    height: 40px;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+}
+
+.cocktail-name {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 46px;
+  a {
+  }
+}

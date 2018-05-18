@@ -1,15 +1,13 @@
-<div class="navbar-wagon navbar-fixed-top">
+<div class="navbar-wagon navbar-wagon-white">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-
-  </a>
+  <%= link_to 'Home', root_path %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+
+
+    <%= render './shared/create_cocktail_modal' %>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
